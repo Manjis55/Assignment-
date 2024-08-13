@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.gif-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gif-container img {
+    margin: 10px;
+    max-width: 200px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.gif-container img:hover {
+    transform: scale(1.1);
+}
